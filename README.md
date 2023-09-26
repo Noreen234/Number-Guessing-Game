@@ -9,11 +9,11 @@
 
 - The program uses the random module to generate a random integer between 1 and 5, representing the number to be guessed. The user is prompted to input their guess, and the program compares the input with the random number.
 
-1. If the user's guess matches the random number, it displays a success message and ends the game.
+  If the user's guess matches the random number, it displays a success message and ends the game.
+
+  If the guess is incorrect, the program allows the user to continue guessing, providing feedback on whether the guess was too high or too low.
   
-2. If the guess is incorrect, the program allows the user to continue guessing, providing feedback on whether the guess was too high or too low.
-  
-3. The user has a maximum of 7 attempts to guess the correct number. If they don't guess correctly within the allowed attempts, the game ends, and it displays a "Game over!" message.
+  The user has a maximum of 7 attempts to guess the correct number. If they don't guess correctly within the allowed attempts, the game ends, and it displays a "Game over!" message.
 
 ## How to Play:
 
